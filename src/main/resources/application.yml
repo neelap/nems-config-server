@@ -4,7 +4,7 @@ spring:
     config:
       server:
         git:
-          uri:
-          searchPaths: 'ConfigData'
+          uri: https://github.com/neelap/nems-config-repo
+          search-paths: config
 server:
   port: 8001
